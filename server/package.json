@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "backend for minor project",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Unnati0509/MinorProject.git"
+  },
+  "author": "unnati-shantanu-priya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Unnati0509/MinorProject/issues"
+  },
+  "homepage": "https://github.com/Unnati0509/MinorProject#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
