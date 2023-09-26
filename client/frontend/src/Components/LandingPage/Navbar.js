@@ -1,16 +1,16 @@
 import React from 'react';
-import '../../CSS/Navbar.css'
+import '../../CSS/Navbar.css';
 
 function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <a href="#" className="navbar-logo">
-          <img style={{"width":'80px'}} src='https://www.msit.in/static/img/msit.png'/>
+        <a href="/" className="navbar-logo">
+          <img style={{ width: '80px' }} src="https://www.msit.in/static/img/msit.png" alt="MSIT Logo" />
         </a>
         <ul className="navbar-menu">
           <li className="navbar-item">
-            <a href= "/home" className="navbar-link">
+            <a href="/" className="navbar-link">
               Home
             </a>
           </li>
@@ -21,7 +21,7 @@ function Navbar() {
           </li>
           <li className="navbar-item">
             <a href="/login" className="navbar-link">
-              login
+              Login
             </a>
           </li>
           <li className="navbar-item">
