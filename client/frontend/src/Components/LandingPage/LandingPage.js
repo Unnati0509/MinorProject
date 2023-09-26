@@ -24,21 +24,19 @@ function LandingPage() {
           <p>Stay updated on the status of your grievances at all times.</p>
         </div>
       </section>
-      <section className='organizer'>
+      
 
- <div className="feature">
-          <h2>Login As Student</h2>
-          <p>Student....</p> 
+ <div className="feature-container">
+    <div className='other-feature'>
+         <a href='/login'> <h2>Login Here</h2> </a>
         </div>
-        <div className="feature">
-          <h2>Login As Teacher</h2>
-          <p>Teacher...</p>
+        <div className="other-feature">
+        <a href='signup'>  <h2>Register Here</h2></a>
         </div>
-      </section>
-      <footer className="footer">
-        <p>&copy; 2023 College Grievance Portal</p>
-      </footer>
+   
+    
     </div>
+</div>
   );
 }
 
